@@ -15,16 +15,15 @@
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
         </a-assets>
         <a-assets>
-            <a-asset-item id="bim-asset" src="https://raw.githubusercontent.com/sbgiroua/ar-test-2/main/models/scene.gltf"></a-asset-item>
+            <a-asset-item id="bim-asset" src="https://raw.githubusercontent.com/sbgiroua/ar-test-2/main/models/bimasset/scene.gltf"></a-asset-item>
         </a-assets>
 
         <a-marker type='barcode' value='7'>
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
 
-        <a-marker id="animated-marker" type='barcode' value='63'>
+        <a-marker type='barcode' value='60'>
             <a-entity
-                animation-mixer
                 gltf-model="#bim-asset"
                 scale="2 2 2">
             </a-entity>
