@@ -23,9 +23,17 @@
         </a-marker>
 
         <a-marker type='barcode' value='60'>
-            <a-entity
+            <a-box
                 gltf-model="#bim-asset"
                 scale="2 2 2">
+            </a-box>
+        </a-marker>
+
+        <a-marker id="animated-marker" type='barcode' value='6'></a-marker>
+                <a-entity 
+                gltf-model="./models/bimasset/scene.gltf" 
+                rotation="0 180 0" 
+                scale="0.15 0.15 0.15"/>
             </a-entity>
         </a-marker>
 
